@@ -2,6 +2,8 @@ private double calculateFormula(SIGN sign, double arg1, double arg2) {
     switch (sign) {
         case ADD:
             return arg1 + arg2;
+        case MINUS:
+            return arg1 - arg2;
         default:
             break;
     }
